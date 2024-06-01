@@ -48,3 +48,10 @@ int determine_new_capacity(int capacity);
 void toString(Array *ptr);
 // Verify if ptr is null
 void verifyPtr(void *ptr);
+
+// Tests
+void printTestMethod(char *method, bool cond);
+
+void fillArray(Array *arr, int size);
+
+void tests();
