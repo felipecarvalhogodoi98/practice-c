@@ -44,7 +44,6 @@ int hash(HashTable* hashTable, char* key) {
   int i = 0;
   char current = key[i];
   while (current != '\0') {
-
     hash = (hash * 17 + current) % hashTable->capacity; 
     i++;
     current = key[i];
